@@ -1,0 +1,11 @@
+{
+  "name": "Reaction Commerce",
+  "description": "Heruko deploy button for Reaction Commerce",
+  "repository": "https://github.com/b4oshany/heruko-reaction-commerce",
+  "logo": "https://reactioncommerce.com/images/logo.png",
+  "keywords": ["node", "express", "static", "reaction commerce", "e-commerce"],
+  "image": "heroku/nodejs",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  }
+}
