@@ -9,6 +9,6 @@
     "postdeploy": "bundle exec rake bootstrap"
   },
   "env": {
-    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    "BUILDPACK_URL": "https://github.com/b4oshany/heruko-reaction-commerce"
   },
 }
