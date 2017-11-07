@@ -1,2 +1,1 @@
-
-work: ./install.sh; cd reaction && reaction run
+web: ./install.sh; cd reaction && reaction run
